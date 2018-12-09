@@ -1,0 +1,52 @@
+.header {
+    height: 95vh;
+    background-image: url(../img/main-image.png);
+    background-size: cover;
+    background-position: top;
+    position: relative;
+
+    // &__navigation {
+    //     position: relative;
+    //     top: 2rem;
+    // }
+
+    &__text-box {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+
+        @media only screen and (max-width: 45.625em) {
+            top: 60%;
+        }
+    }
+}
+
+.container {
+    width: 118rem;
+    margin: 0 auto;
+}
+
+.app {
+    background-color: #f7f7f7;
+    padding: 18rem 0 27rem;
+    overflow: hidden;
+
+    @media only screen and (max-width: $medium) {
+        padding: 2rem 0 9rem;
+    }
+
+    @media only screen and (max-width: 45.625em) {
+        padding-bottom: 50rem;
+    }
+}
+
+.user-reviews {
+    background-image: linear-gradient(0deg, rgba(74, 57, 73, 0.9), rgba(74, 57, 73, .9)), url(../img/vegs.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    padding: 8rem 12rem;
+}
+
+

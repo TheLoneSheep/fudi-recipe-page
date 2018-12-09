@@ -1,0 +1,14 @@
+.fluid {
+    display: flex;
+    justify-content: space-between;
+
+    @media only screen and (max-width: 45.625em) {
+        flex-direction: column;
+        padding: 0 2rem;
+    }
+}
+
+.row {
+    max-width: 111rem;
+    margin: 0 auto;
+}

@@ -1,0 +1,41 @@
+////responsive
+$large: 100em; //1600px
+$medium: 68.75em; //1100px
+$small: 37.5em; //600px;
+$phone: 40em; //640px;
+
+
+
+html {
+    font-size: 62.5%;
+
+    @media only screen and (max-width: $medium) {
+        font-size: 50%;
+    }
+}
+
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+body {
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+}
+
+$color-white: #fff;
+
+
+
+
+
+.center-text {
+    text-align: center;
+}
+
