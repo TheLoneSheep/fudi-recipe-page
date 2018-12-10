@@ -29,10 +29,9 @@
 }
 
 .app {
-    background: url(../img/phone.png) no-repeat #f7f7f7;
-    //background-color: #f7f7f7;
-    background-position: 40rem 10.02rem;
-    padding: 18rem 0 30rem;
+
+    background-color: #f7f7f7;
+    padding: 18rem 0 27rem;
     overflow: hidden;
 
     @media only screen and (max-width: $medium) {
@@ -42,6 +41,12 @@
     @media only screen and (max-width: 45.625em) {
         padding-bottom: 50rem;
     }
+
+    @media only screen and (max-width: 39.6875em) {
+        padding-bottom: 0;
+    }
+
+
 }
 
 .user-reviews {

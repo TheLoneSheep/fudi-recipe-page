@@ -64,6 +64,9 @@ body {
     line-height: .9;
     margin-bottom: 4rem;
     letter-spacing: .4rem; }
+    @media only screen and (max-width: 37.5em) {
+      .heading-primary--main {
+        font-size: 8rem; } }
   .heading-primary--sub {
     text-transform: none;
     opacity: .8;
@@ -71,6 +74,9 @@ body {
     font-size: 3.6rem;
     font-style: italic;
     letter-spacing: .2rem; }
+    @media only screen and (max-width: 37.5em) {
+      .heading-primary--sub {
+        font-size: 3rem; } }
   .heading-primary--sub-2 {
     font-size: 1.4rem;
     font-weight: 400;
@@ -261,6 +267,9 @@ body {
       .app-figure__image {
         top: 2rem;
         width: 50%; } }
+    @media only screen and (max-width: 39.6875em) {
+      .app-figure__image {
+        display: none; } }
   @media only screen and (max-width: 68.75em) {
     .app-figure {
       margin-top: 5rem;
@@ -424,9 +433,8 @@ body {
   margin: 0 auto; }
 
 .app {
-  background: url(../img/phone.png) no-repeat #f7f7f7;
-  background-position: 40rem 10.02rem;
-  padding: 18rem 0 30rem;
+  background-color: #f7f7f7;
+  padding: 18rem 0 27rem;
   overflow: hidden; }
   @media only screen and (max-width: 68.75em) {
     .app {
@@ -434,6 +442,9 @@ body {
   @media only screen and (max-width: 45.625em) {
     .app {
       padding-bottom: 50rem; } }
+  @media only screen and (max-width: 39.6875em) {
+    .app {
+      padding-bottom: 0; } }
 
 .user-reviews {
   background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(74, 57, 73, 0.9)), to(rgba(74, 57, 73, 0.9))), url(../img/vegs.png);

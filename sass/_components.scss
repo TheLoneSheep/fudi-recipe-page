@@ -30,6 +30,10 @@
         // @media only screen and (max-width: $phone) {
         //     font-size: 12.5rem;
         // }
+
+        @media only screen and (max-width: $small) {
+            font-size: 8rem;
+        }
     }
     &--sub {
         text-transform: none;
@@ -38,6 +42,10 @@
         font-size: 3.6rem;
         font-style: italic;
         letter-spacing: .2rem;
+
+        @media only screen and (max-width: $small) {
+            font-size: 3rem;
+        }
     }
 
     &--sub-2 {
@@ -299,6 +307,10 @@
         @media only screen and (max-width: 45.625em) {
             top: 2rem;
             width: 50%;
+        }
+
+        @media only screen and (max-width: 39.6875em) {
+            display: none;
         }
     }
 
