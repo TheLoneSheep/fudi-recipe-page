@@ -215,28 +215,29 @@ body {
     .feature-box {
       padding: 2rem 0; } }
 
-.app-about__paragraph {
-  font-size: 1.6rem;
-  font-weight: 300;
-  line-height: 1.5;
-  -webkit-box-flex: 1;
-  -ms-flex: 1;
-  flex: 1; }
-  .app-about__paragraph:not(:last-child) {
-    margin-bottom: 2rem; }
-
-.app-about-download__link:not(:last-child) {
-  margin-right: 1rem; }
-
-@media only screen and (max-width: 68.75em) {
-  .app-about-download {
-    text-align: center; } }
-
-@media only screen and (max-width: 68.75em) {
-  .app-about {
+.app-about {
+  -ms-flex-preferred-size: 45%;
+  flex-basis: 45%;
+  margin-left: auto; }
+  .app-about__paragraph {
+    font-size: 1.6rem;
+    font-weight: 300;
+    line-height: 1.5;
     -webkit-box-flex: 1;
     -ms-flex: 1;
-    flex: 1; } }
+    flex: 1; }
+    .app-about__paragraph:not(:last-child) {
+      margin-bottom: 2rem; }
+  .app-about-download__link:not(:last-child) {
+    margin-right: 1rem; }
+  @media only screen and (max-width: 68.75em) {
+    .app-about-download {
+      text-align: center; } }
+  @media only screen and (max-width: 68.75em) {
+    .app-about {
+      -webkit-box-flex: 1;
+      -ms-flex: 1;
+      flex: 1; } }
 
 .app-figure {
   -webkit-box-flex: 0;
@@ -423,8 +424,9 @@ body {
   margin: 0 auto; }
 
 .app {
-  background-color: #f7f7f7;
-  padding: 18rem 0 27rem;
+  background: url(../img/phone.png) no-repeat #f7f7f7;
+  background-position: 40rem 10.02rem;
+  padding: 18rem 0 30rem;
   overflow: hidden; }
   @media only screen and (max-width: 68.75em) {
     .app {

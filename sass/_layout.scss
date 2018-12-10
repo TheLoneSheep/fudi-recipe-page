@@ -29,8 +29,10 @@
 }
 
 .app {
-    background-color: #f7f7f7;
-    padding: 18rem 0 27rem;
+    background: url(../img/phone.png) no-repeat #f7f7f7;
+    //background-color: #f7f7f7;
+    background-position: 40rem 10.02rem;
+    padding: 18rem 0 30rem;
     overflow: hidden;
 
     @media only screen and (max-width: $medium) {
