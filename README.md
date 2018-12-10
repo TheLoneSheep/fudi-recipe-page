@@ -7,4 +7,4 @@ Tools used
 - Sass
 - Gulp with autoprefixer
 
-Image for reference: fudi/index.psd
+Image for reference: fudi.jpg
