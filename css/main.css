@@ -379,6 +379,12 @@ body {
       .cuisines__stats {
         -ms-flex-wrap: wrap;
         flex-wrap: wrap; } }
+  .cuisines__hidden-flex-item {
+    content: "";
+    -webkit-box-flex: 1;
+    -ms-flex: 1 0 32rem;
+    flex: 1 0 32rem;
+    visibility: hidden; }
 
 .stats__item-top {
   font-size: 3.6rem;

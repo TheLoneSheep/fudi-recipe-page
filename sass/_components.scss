@@ -438,6 +438,13 @@
             flex-wrap: wrap;
         }
     }
+
+    ///hidden items to prevent last item grow
+    &__hidden-flex-item {
+        content: "";
+        flex: 1 0 32rem;
+        visibility: hidden;
+    }
 }
 
 .stats__item {
